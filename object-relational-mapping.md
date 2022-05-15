@@ -40,6 +40,13 @@ A language represents the primitive constructs of reh relational database
      * e.g. conn = engine.connect()
   2. Feed the expression object to the connection object's inherited method execute()
      * e.g. ins = advisor.insert().values(name="mutual fund", fund="Vanguard 500")
+- how to select rows in a table object?
+  1. create an object using select() method
+  2. construct SQL SELECT expression using Python Str() method
+  3. execute SQL SELECT expression using execute() passing the object as a parameter
+  4. stores data in a variable
+  5. fetch data by executing fetchone() method on the variable
+  6. appending the where clause with filtering criteria to filter fetched data
 
 ------------
 
@@ -54,4 +61,7 @@ A language represents the primitive constructs of reh relational database
 8. executed SQL expression to insert columns and values in the database
 9. executed one SQL expression to insert a list of dictionaries in the database
 10. verified the creation of the table, insertion of columns and values using DB Browser for SQLite 
+11. executed SQL SELECT statement to fetch data from the database
+12. appended where clause to the SELECT statement to customize fetched data from the database
+13. verified fetched data from database in the console
 
