@@ -47,6 +47,17 @@ A language represents the primitive constructs of reh relational database
   4. stores data in a variable
   5. fetch data by executing fetchone() method on the variable
   6. appending the where clause with filtering criteria to filter fetched data
+- how to update values in a table?
+  1. create an object using update() method
+  2. append where() clause with parameter to select a specific column
+  3. append values() clause and new value as the parameter
+  4. store the object in a statement or variable
+  5. execute SQL expression using execute() passing the statement as a parameter
+- how to delete rows or values in a table?
+  1. run delete() on a target table object
+  2. append where() clause passing parameter to select specific column value to delete
+  3. store the above operation in a variable or statement
+  4. execute SQL delete expression using execute() passing the delete statement as a parameter
 
 ------------
 
@@ -64,4 +75,6 @@ A language represents the primitive constructs of reh relational database
 11. executed SQL SELECT statement to fetch data from the database
 12. appended where clause to the SELECT statement to customize fetched data from the database
 13. verified fetched data from database in the console
+14. executed SQL UPDATE statement to update values in a table using table object
+15. executed SQL DELETE statement to delete rows in a table using table object
 
