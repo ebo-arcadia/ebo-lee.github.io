@@ -6,7 +6,7 @@
 - understand how data flaws throughout an Angular application
 - able to build an application when given only a business requirement
 - able to explain clearly and concisely how Angular works technically
-- able to explain clearly and conscisely how an Angular application works
+- able to explain clearly and concisely how an Angular application works
 
 -------------------
 
@@ -41,3 +41,5 @@ see screen shot
 - added an navigation bar using bootstrap
 - created and nested components
 - understood the hierarchy of components as the order of components invocation
+- created basic routing
+- understood how routes, modules, components, view pages, browser, URL are stitched together
