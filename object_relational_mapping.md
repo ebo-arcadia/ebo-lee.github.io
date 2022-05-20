@@ -77,4 +77,9 @@ A language represents the primitive constructs of reh relational database
 13. verified fetched data from database in the console
 14. executed SQL UPDATE statement to update values in a table using table object
 15. executed SQL DELETE statement to delete rows in a table using table object
+16. deleted multiple columns, rows, tables using delete object to execute SQL DELETE expression
+17. updated multiple rows, columns, and tables suing update object to execute SQL UPDATE expressions
+18. executed update operation preserving the order when passing parameters using ordered_value() method
+19. executed SQL select expression using select object with JOINS to combine rows and columns from multiple tables
+20. 
 
