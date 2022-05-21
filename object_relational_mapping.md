@@ -81,5 +81,6 @@ A language represents the primitive constructs of reh relational database
 17. updated multiple rows, columns, and tables suing update object to execute SQL UPDATE expressions
 18. executed update operation preserving the order when passing parameters using ordered_value() method
 19. executed SQL select expression using select object with JOINS to combine rows and columns from multiple tables
-20. 
+20. formed conjunctions of compound SQL expressions using relational operators including AND, OR, NOT functions
+21. rendered generic functions, functions passing columns as parameters with the usage of imported keyword func
 
