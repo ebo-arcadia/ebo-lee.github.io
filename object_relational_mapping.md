@@ -58,6 +58,11 @@ A language represents the primitive constructs of reh relational database
   2. append where() clause passing parameter to select specific column value to delete
   3. store the above operation in a variable or statement
   4. execute SQL delete expression using execute() passing the delete statement as a parameter
+- how to execute compound select clauses and eliminate duplicates after querying a table?
+  1. create two or three SQL queries statements using select() function
+  2. call union() method to a query statement passing the other two statements as parameters
+  3. store the object in a variable
+  4. execute the statement using DB connection object passing the variable
 
 ------------
 
@@ -83,4 +88,5 @@ A language represents the primitive constructs of reh relational database
 19. executed SQL select expression using select object with JOINS to combine rows and columns from multiple tables
 20. formed conjunctions of compound SQL expressions using relational operators including AND, OR, NOT functions
 21. rendered generic functions, functions passing columns as parameters with the usage of imported keyword func
+22. executed combined SQL query or select statements using union() function also eliminated any duplicates
 

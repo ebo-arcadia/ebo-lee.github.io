@@ -43,3 +43,4 @@ see screen shot
 - understood the hierarchy of components as the order of components invocation
 - created basic routing
 - understood how routes, modules, components, view pages, browser, URL are stitched together
+- used HTML tags, bootstrap class properties and decoration to create rows, columns, tables, boxes, dropdown, toggles, etc 
