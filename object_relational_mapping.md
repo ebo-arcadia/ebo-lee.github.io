@@ -63,6 +63,12 @@ A language represents the primitive constructs of reh relational database
   2. call union() method to a query statement passing the other two statements as parameters
   3. store the object in a variable
   4. execute the statement using DB connection object passing the variable
+- how to select rows from a table while excluding certain rows?
+  1. using except_() function to construct an SQL except statement object passing two select statements as parameters
+  2. executing the object using database connection object
+- how to query common rows using multiple select statements?
+  1. using intersect() function to create an object passing two select statements as parameters
+  2. executing the object using database connection object
 
 ------------
 
@@ -89,4 +95,6 @@ A language represents the primitive constructs of reh relational database
 20. formed conjunctions of compound SQL expressions using relational operators including AND, OR, NOT functions
 21. rendered generic functions, functions passing columns as parameters with the usage of imported keyword func
 22. executed combined SQL query or select statements using union() function also eliminated any duplicates
+23. executed SQL except statement using except() function to get rows while excluding certain rows
+24. executed SQL intersect statement using intersect function to get and common rows in a table combing multiple select statements
 
