@@ -45,4 +45,5 @@ see screen shot
 - understood how routes, modules, components, view pages, browser, URL are stitched together
 - used HTML tags, bootstrap class properties and decoration to create rows, columns, tables, boxes, dropdown, toggles, etc
 - used *ngFor directive to dynamically render data onto the view page
-- defined dataset name, type and values in OnInit of component; assigned each dataset as an attribute using ngOninit lifecycle 
+- defined dataset name, type and values in OnInit of component; assigned each dataset as an attribute using ngOninit lifecycle
+- used ngFor directive, property binding, nested ngFor to dynamically render data component onto the html view page

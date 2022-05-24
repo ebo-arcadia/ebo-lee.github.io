@@ -69,7 +69,17 @@ A language represents the primitive constructs of reh relational database
 - how to query common rows using multiple select statements?
   1. using intersect() function to create an object passing two select statements as parameters
   2. executing the object using database connection object
-
+- how to interact with database using ORM principle?
+  1. import sessionMaker module from sqlalchemy
+  2. construct a session class and bound it to the engine object using sessionmaker(bond=engine) configurable method
+  3. create session object using Session class to inherit methods such as begin(), add(), etc
+  4. call inherited built-in methods on the session object
+- how to facilitate associating user-defined Python classes with database tables using declaring mapping?
+  1. import declarative base from sqlalchemy ext library
+  2. create a declarative base class
+  3. create a mapped class containing table to be created passing the base as parameter
+  4. using metadata collection adn create_all() method to create database and tables passing engine object as source of db connectivity
+  5. 
 ------------
 
 ## Outcomes
@@ -97,4 +107,7 @@ A language represents the primitive constructs of reh relational database
 22. executed combined SQL query or select statements using union() function also eliminated any duplicates
 23. executed SQL except statement using except() function to get rows while excluding certain rows
 24. executed SQL intersect statement using intersect function to get and common rows in a table combing multiple select statements
+25. created session object using sessionmaker class, bounding to engine object to handle interacting with database
+26. facilitated associating python classes with database tables creation using declarative base, metadata attributes, and create_all() binding engine object
+
 
