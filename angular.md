@@ -47,3 +47,7 @@ see screen shot
 - used *ngFor directive to dynamically render data onto the view page
 - defined dataset name, type and values in OnInit of component; assigned each dataset as an attribute using ngOninit lifecycle
 - used ngFor directive, property binding, nested ngFor to dynamically render data component onto the html view page
+- understood how data defined, stored in component interacts with HTML view page
+- understood what interpolation binding, property binding, event binding, and two-way binding do
+- implemented code to dynamically render data from component onto HTML view page using interpolation binding and ternary logic
+- implemented code for event listening and conditionally execute css property using ternary logic and property binding

@@ -79,7 +79,11 @@ A language represents the primitive constructs of reh relational database
   2. create a declarative base class
   3. create a mapped class containing table to be created passing the base as parameter
   4. using metadata collection adn create_all() method to create database and tables passing engine object as source of db connectivity
-  5. 
+- how to persist data to a table using object of a mapped class?
+  1. declare an SQL statement using the mapped class passing parameters corresponding to each table column with value
+  2. store the statement in a variable
+  3. add the statement to the session object passing add() or add_all() method with the variable as parameter
+  4. flush the transaction to execute the statement by calling commit() on the session object
 ------------
 
 ## Outcomes
@@ -109,5 +113,6 @@ A language represents the primitive constructs of reh relational database
 24. executed SQL intersect statement using intersect function to get and common rows in a table combing multiple select statements
 25. created session object using sessionmaker class, bounding to engine object to handle interacting with database
 26. facilitated associating python classes with database tables creation using declarative base, metadata attributes, and create_all() binding engine object
+27. added a single record or multiple records to a table using mapped class, declared session object, and built-in method add(), add_all() and commit()
 
 
