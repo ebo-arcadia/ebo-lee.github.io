@@ -89,7 +89,12 @@ A language represents the primitive constructs of reh relational database
   2. store the content in a variable
   3. assign new values to the attribute of the object
   4. commit the transaction using commit()
-  5. using update() to update bulk of attributes passing object of arrays and synchrize_session
+  5. using update() to update bulk of attributes passing object of arrays and synchronize_session
+- how to customize returned result sets when querying tables?
+  1. create session object using sessionmaker library
+  2. apply query() with table object as parameter to the session object
+  3. apply filter() along with operators
+  4. iterate the returned object and display associating attributes
   
 ------------
 
@@ -122,5 +127,6 @@ A language represents the primitive constructs of reh relational database
 26. facilitated associating python classes with database tables creation using declarative base, metadata attributes, and create_all() binding engine object
 27. added a single record or multiple records to a table using mapped class, declared session object, and built-in method add(), add_all() and commit()
 28. updated a single row and multiple rows in a table using session object, query, variable assignment, and update()
+29. applied filter() along with filter operators (==, !=, in_(), and_(), or_()) to customize database query
 
 
