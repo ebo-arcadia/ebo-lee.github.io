@@ -51,3 +51,4 @@ see screen shot
 - understood what interpolation binding, property binding, event binding, and two-way binding do
 - implemented code to dynamically render data from component onto HTML view page using interpolation binding and ternary logic
 - implemented code for event listening and conditionally execute css property using ternary logic and property binding
+- used *ngIf, *ngIf-else, and *ng-template to conditionally render HTML content on the view page

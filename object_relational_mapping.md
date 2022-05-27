@@ -84,6 +84,13 @@ A language represents the primitive constructs of reh relational database
   2. store the statement in a variable
   3. add the statement to the session object passing add() or add_all() method with the variable as parameter
   4. flush the transaction to execute the statement by calling commit() on the session object
+- how to modify or update a table using mapped objects?
+  1. fetch the content from a table needs to be updated using session object, query(Table Class), and get()
+  2. store the content in a variable
+  3. assign new values to the attribute of the object
+  4. commit the transaction using commit()
+  5. using update() to update bulk of attributes passing object of arrays and synchrize_session
+  
 ------------
 
 ## Outcomes
@@ -114,5 +121,6 @@ A language represents the primitive constructs of reh relational database
 25. created session object using sessionmaker class, bounding to engine object to handle interacting with database
 26. facilitated associating python classes with database tables creation using declarative base, metadata attributes, and create_all() binding engine object
 27. added a single record or multiple records to a table using mapped class, declared session object, and built-in method add(), add_all() and commit()
+28. updated a single row and multiple rows in a table using session object, query, variable assignment, and update()
 
 
