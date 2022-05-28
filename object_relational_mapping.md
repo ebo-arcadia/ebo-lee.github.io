@@ -95,6 +95,10 @@ A language represents the primitive constructs of reh relational database
   2. apply query() with table object as parameter to the session object
   3. apply filter() along with operators
   4. iterate the returned object and display associating attributes
+- how to use string-based SQL statement with ORM mapped class and object?
+  1. pass SQL statement as string type to text() and subsequently pass it to filter()
+  2. call one(), first(), or all() to fetch the result set
+  3. return or print the data in the object using for loop
   
 ------------
 
@@ -128,5 +132,8 @@ A language represents the primitive constructs of reh relational database
 27. added a single record or multiple records to a table using mapped class, declared session object, and built-in method add(), add_all() and commit()
 28. updated a single row and multiple rows in a table using session object, query, variable assignment, and update()
 29. applied filter() along with filter operators (==, !=, in_(), and_(), or_()) to customize database query
+30. used literal string SQL expression or statement with query object in python
+31. used session object, filter(), text(), with parameters to link textual SQL to ORM mapped columns expression
+32. 
 
 
