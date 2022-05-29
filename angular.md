@@ -56,4 +56,8 @@ see screen shot
 - understood what module is, what it does, why use it, and how to create and use one
 - generated new modules, re-organized application structure, incorporated, imported, exported components
 - fixed issues related to current and parent directory with importing modules after restructuring application structure
+- understood why using service as a class object to handle business logic and data received
+- understood how to create service class, make it available locally or globally, inject it into component
+- understood the concept of dependency injection, @injection decorator, ProvidedIn, constructor()
+- understood the concept of module and component in the context of Angular
 

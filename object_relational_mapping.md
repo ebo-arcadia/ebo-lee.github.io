@@ -99,6 +99,13 @@ A language represents the primitive constructs of reh relational database
   1. pass SQL statement as string type to text() and subsequently pass it to filter()
   2. call one(), first(), or all() to fetch the result set
   3. return or print the data in the object using for loop
+- how to create multiple tables, glue them using relational database principles?
+  1. create the parent table along with mapped class
+  2. create the child table adding foreign key directive to a column constrained to a column in the parent table
+  3. import and use sqlalchemy ORM API directive relationship() 
+  4. apply relationship() to the parent table linking it to the child table via attribute with the help of foreign key directive
+  5. apply relationship() to the child table linking it to the parent table via attribute with the help of foreign key directive
+
   
 ------------
 
@@ -134,6 +141,6 @@ A language represents the primitive constructs of reh relational database
 29. applied filter() along with filter operators (==, !=, in_(), and_(), or_()) to customize database query
 30. used literal string SQL expression or statement with query object in python
 31. used session object, filter(), text(), with parameters to link textual SQL to ORM mapped columns expression
-32. 
+32. linked tables with relationship patterns, one-to-many, many-to-one, one-to-one, many-to-many using relationship() directive
 
 
