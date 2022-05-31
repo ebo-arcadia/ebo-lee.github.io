@@ -105,6 +105,12 @@ A language represents the primitive constructs of reh relational database
   3. import and use sqlalchemy ORM API directive relationship() 
   4. apply relationship() to the parent table linking it to the child table via attribute with the help of foreign key directive
   5. apply relationship() to the child table linking it to the parent table via attribute with the help of foreign key directive
+- how to insert data into a parent table while establishing a relationship with its child table?
+  1. construct an SQL insert statement using class object passing rows as parameters
+  2. construct an insert statement with data to be inserted into the child table as parameters
+  3. pass the statement to the attribute of the parent object established with relationship() module
+  4. call either all() or add_all() to the statement object
+  5. execute the commit using session or db_connector object using sessionmaker() class
 
   
 ------------
@@ -142,5 +148,8 @@ A language represents the primitive constructs of reh relational database
 30. used literal string SQL expression or statement with query object in python
 31. used session object, filter(), text(), with parameters to link textual SQL to ORM mapped columns expression
 32. linked tables with relationship patterns, one-to-many, many-to-one, one-to-one, many-to-many using relationship() directive
+33. constructed and committed a parent table object to the database providing mapped attributes to establish relationships with its child table
+34. inserted multiple rows and columns into a parent table and its child table using add() and add_all()
+
 
 
