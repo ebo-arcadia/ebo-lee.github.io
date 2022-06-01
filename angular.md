@@ -60,4 +60,9 @@ see screen shot
 - understood how to create service class, make it available locally or globally, inject it into component
 - understood the concept of dependency injection, @injection decorator, ProvidedIn, constructor()
 - understood the concept of module and component in the context of Angular
+- understood concept of AJAX (asynchronous JavaScript and Xml), request, response, client, and server
+- understood the data flow from database to web API to Angular Service object, component, observable using the concept of AJAX
+- implemented GET request in angular project using service, component, httpClient, model class
+- started NPM backend server, made request call to the backend endpoint, retrieved and stored data in response in component, rendered onto view HTML page
+- verified and understood the structure of request response objects in the browser devTool
 
