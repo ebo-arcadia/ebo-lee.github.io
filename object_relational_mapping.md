@@ -122,6 +122,11 @@ A language represents the primitive constructs of reh relational database
   3. construct another statement using query() passing the parent table along with the object statement from above
   4. calling outerjoin() to perform left join passing the columns with key used to link the two tables
   5. use python iterator to iterate and display the nested result set
+- how to query many-to-one relational tables conditionally using relational operator?
+  1. construct SQL SELECT statement using query() passing the parent table object
+  2. apply join() passing child table object as parameter to avoid Cartesian warning
+  3. apply filter() passing '__eq__' relational operator with required filter condition
+  4. iterate the result set and display data with attributes
   
 ------------
 
@@ -162,6 +167,8 @@ A language represents the primitive constructs of reh relational database
 34. inserted multiple rows and columns into a parent table and its child table using add() and add_all()
 35. created query on two relational tables using query(), filter(), join(), outerjoin(), subquery()
 36. iterated the result set and printed rows and columns joined from two tables
+37. queried relational tables with a many-to-one relationship conditionally using relational operator '__eq__' along with filter() and join()
+38. resolved cartesian warning and side effect using join() statement
 
 
 
