@@ -127,6 +127,12 @@ A language represents the primitive constructs of reh relational database
   2. apply join() passing child table object as parameter to avoid Cartesian warning
   3. apply filter() passing '__eq__' relational operator with required filter condition
   4. iterate the result set and display data with attributes
+- how to query relational tables finding combining common columns using relationship operators?
+  1. construct an SQL SELECT statement using table class object for the parent table
+  2. use filter() method passing child table, its attribute along with a relationship operator
+  3. execute the statement using database connector object or conventionally called session
+  4. display result set with python iteration if it is an array of objects
+  5. display single object with its attribute if not iterable 
   
 ------------
 
@@ -169,6 +175,7 @@ A language represents the primitive constructs of reh relational database
 36. iterated the result set and printed rows and columns joined from two tables
 37. queried relational tables with a many-to-one relationship conditionally using relational operator '__eq__' along with filter() and join()
 38. resolved cartesian warning and side effect using join() statement
+39. queried relational tables filtering common rows & columns using relationship operators include contains(), any(), has(), __ne__(), __eq__()
 
 
 
