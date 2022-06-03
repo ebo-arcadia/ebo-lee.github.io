@@ -133,6 +133,12 @@ A language represents the primitive constructs of reh relational database
   3. execute the statement using database connector object or conventionally called session
   4. display result set with python iteration if it is an array of objects
   5. display single object with its attribute if not iterable 
+- what are some common relationship loading techniques and how to implement them?
+  1. lazy loading, eager loading, no loading
+  2. import methods for each loading techniques including subqueryload(), selectinload(), joinedload()
+  3. construct SQL query statement using table class object with query() applied to session object
+  4. apply imported loading method passing either collections or many-to-one object as parameter
+  5. iterate the result set depending on the structure of it
   
 ------------
 
@@ -176,6 +182,10 @@ A language represents the primitive constructs of reh relational database
 37. queried relational tables with a many-to-one relationship conditionally using relational operator '__eq__' along with filter() and join()
 38. resolved cartesian warning and side effect using join() statement
 39. queried relational tables filtering common rows & columns using relationship operators include contains(), any(), has(), __ne__(), __eq__()
+40. understood the difference among different loading techniques including lazy, eager, and no loading in relational database
+41. understood the advantages and disadvantages of each loading technique
+42. implemented eager loading techniques for querying relational tables, verified and displayed returned result set
+
 
 
 
