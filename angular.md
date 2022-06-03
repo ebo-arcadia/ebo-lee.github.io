@@ -65,4 +65,6 @@ see screen shot
 - implemented GET request in angular project using service, component, httpClient, model class
 - started NPM backend server, made request call to the backend endpoint, retrieved and stored data in response in component, rendered onto view HTML page
 - verified and understood the structure of request response objects in the browser devTool
+- implemented POST request using form module, boostrap, module binding, service class, parse response, send input data, clear input value
+
 
