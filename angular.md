@@ -66,5 +66,7 @@ see screen shot
 - started NPM backend server, made request call to the backend endpoint, retrieved and stored data in response in component, rendered onto view HTML page
 - verified and understood the structure of request response objects in the browser devTool
 - implemented POST request using form module, boostrap, module binding, service class, parse response, send input data, clear input value
+- implemented PUT operation, creating new parameters, temporary properties, even listener, event binding, indexing, handling response, rendering view page 
+- understood further how PUT operation is completed using observable class, service class, httpClient PUT, properties in component, event binding, property binding, model binding
 
 
