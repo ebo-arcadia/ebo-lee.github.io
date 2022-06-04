@@ -185,6 +185,8 @@ A language represents the primitive constructs of reh relational database
 40. understood the difference among different loading techniques including lazy, eager, and no loading in relational database
 41. understood the advantages and disadvantages of each loading technique
 42. implemented eager loading techniques for querying relational tables, verified and displayed returned result set
+43. propagated deletion of objects in a parent table to the objects in another table using cascade parameter; the two tables have a many-to-one relationship
+44. deleted objects from a parent table along with all the child objects using cascade in relationship() with tables defined with a many-to-one relationship
 
 
 
