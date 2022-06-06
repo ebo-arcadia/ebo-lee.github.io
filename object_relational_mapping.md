@@ -139,6 +139,16 @@ A language represents the primitive constructs of reh relational database
   3. construct SQL query statement using table class object with query() applied to session object
   4. apply imported loading method passing either collections or many-to-one object as parameter
   5. iterate the result set depending on the structure of it
+- how to use ORM to interact with mapped class that refer to other objects?
+- how to create two tables with many-to-many relationship established using ORM?
+  1. create an association table using Table(), declarative base metabase object
+  2. pass column names, foreign key constraints, and primary_key as parameters to this table
+  3. create a parent table including a collection attribute defined using relationship() to establish one-to-many
+  4. passing the child table name, secondary, back_populates parameters to relationship() establishing bi-directional between parent and child tables
+  5. create a child table including a collection attribute defined using relationship() to establish one-to-many
+  6. passing the parent name, secondary , back_populates parameters to relationship() to establish one-to-many
+  7. using backref parameter in relationship() to automatically establish reverse relationship instead of secondary
+- how to persist and load relationships with many-to-many relational tables?
   
 ------------
 
@@ -187,6 +197,7 @@ A language represents the primitive constructs of reh relational database
 42. implemented eager loading techniques for querying relational tables, verified and displayed returned result set
 43. propagated deletion of objects in a parent table to the objects in another table using cascade parameter; the two tables have a many-to-one relationship
 44. deleted objects from a parent table along with all the child objects using cascade in relationship() with tables defined with a many-to-one relationship
+45. created an association table linking two tables with many-to-many relationship using relationship()
 
 
 
