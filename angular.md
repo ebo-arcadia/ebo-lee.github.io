@@ -70,5 +70,8 @@ see screen shot
 - understood further how PUT operation is completed using observable class, service class, httpClient PUT, properties in component, event binding, property binding, model binding
 - implemented DELETE operation making AJAX call, passing object id, variables, handle response, slice object from array, update view page
 - understood how delete operation is executed step by step in service class, component, and view HTML page
+- implemented search feature so a user can search and view items by attributes and keyword
+- understood steps of operation when implementing search feature using observable, variables, component, property & event binding, AJAX call, event listener, bootstrap, HTML tags
+
 
 
