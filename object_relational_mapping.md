@@ -2,6 +2,8 @@
 - Understand what is ORM and why use it
 - Know how Objects and database interact with each
 - Know how to use SQLAlchemy
+- Understand how expression language is used to construct SQL statements
+- understand how ORM API maps SQL tables with python objects
 __________
 
 
@@ -149,6 +151,12 @@ A language represents the primitive constructs of reh relational database
   6. passing the parent name, secondary , back_populates parameters to relationship() to establish one-to-many
   7. using backref parameter in relationship() to automatically establish reverse relationship instead of secondary
 - how to persist and load relationships with many-to-many relational tables?
+  1. create an object of the lead table class, passing required parameters with values
+  2. create an object of the child table class, passing required parameters with values
+  3. add the child object to the lead object using add() or add_all([])
+  4. add the lead object to a session object created with sessionmaker() library
+  5. commit the embedded SQL expression transaction using commit() on the session object
+  6. to retrieve and display data from the relational tables, using query(), filter(), all(), python iterable
   
 ------------
 
@@ -198,6 +206,7 @@ A language represents the primitive constructs of reh relational database
 43. propagated deletion of objects in a parent table to the objects in another table using cascade parameter; the two tables have a many-to-one relationship
 44. deleted objects from a parent table along with all the child objects using cascade in relationship() with tables defined with a many-to-one relationship
 45. created an association table linking two tables with many-to-many relationship using relationship()
+46. made queries to the relational tables, loaded and displayed rows and columns
 
 
 
