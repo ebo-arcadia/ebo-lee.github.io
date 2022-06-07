@@ -68,5 +68,7 @@ see screen shot
 - implemented POST request using form module, boostrap, module binding, service class, parse response, send input data, clear input value
 - implemented PUT operation, creating new parameters, temporary properties, even listener, event binding, indexing, handling response, rendering view page 
 - understood further how PUT operation is completed using observable class, service class, httpClient PUT, properties in component, event binding, property binding, model binding
+- implemented DELETE operation making AJAX call, passing object id, variables, handle response, slice object from array, update view page
+- understood how delete operation is executed step by step in service class, component, and view HTML page
 
 
