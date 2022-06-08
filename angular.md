@@ -32,6 +32,26 @@ see screen shot
 
 see screen shot
 
+### what are the key concepts to understand?
+
+- component
+- observable
+- observer
+- service class
+- model.ts
+- AJAX call
+- http request
+- header
+- model binding
+- event binding
+- property binding
+- typescript
+- data types
+- constructor
+- component lifecycle
+- response
+- http request
+
 -------------------
 # Outcomes
 
