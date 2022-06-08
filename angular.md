@@ -27,6 +27,7 @@ see screen shot
 - @angular/cli
 - rxjs
 - zone.js
+- rxjs operators
 
 ### what is an overall of Angular application folder structure?
 
@@ -51,6 +52,7 @@ see screen shot
 - component lifecycle
 - response
 - http request
+- RxJS (reactive extension for Javascript)
 
 -------------------
 # Outcomes
@@ -92,6 +94,9 @@ see screen shot
 - understood how delete operation is executed step by step in service class, component, and view HTML page
 - implemented search feature so a user can search and view items by attributes and keyword
 - understood steps of operation when implementing search feature using observable, variables, component, property & event binding, AJAX call, event listener, bootstrap, HTML tags
+- understand how RxJS library is used to work with asynchronous data calls, callbacks and event-based programs
+- implemented using callback function to modify data received in response from the server using map(), pipe(), and JX iteration
+- implemented subscribe() signature new definition syntax to take only one argument 
 
 
 
