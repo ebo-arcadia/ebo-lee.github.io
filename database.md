@@ -1,5 +1,12 @@
 # Object
 
+## database
+- know the commonly used types of database
+- know the features, advantages and disadvantages of each database type
+- able to list common use cases for each type of database type
+- able to use tools to create, maintain, and use of database objects
+
+## materialized view and view
 - understand what view is conceptually
 - know what problems using view solve
 - know what problems using materialized view solve
@@ -13,3 +20,5 @@
 - know how and where to create or implement view and materialized view
 - know how to use view or materialized view to query tables in database
 
+## Outcome
+- created a view using DB browser for sqlite writing SQL query statements
