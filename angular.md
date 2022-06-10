@@ -53,6 +53,7 @@ see screen shot
 - response
 - http request
 - RxJS (reactive extension for Javascript)
+- JWT authentication
 
 -------------------
 # Outcomes
@@ -97,6 +98,7 @@ see screen shot
 - understand how RxJS library is used to work with asynchronous data calls, callbacks and event-based programs
 - implemented using callback function to modify data received in response from the server using map(), pipe(), and JX iteration
 - implemented subscribe() signature new definition syntax to take only one argument 
+- implemented login and logout features using AJAX post call, model, ng modules, login service, ngIf directives
 
 
 
